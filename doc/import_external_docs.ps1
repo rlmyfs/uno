@@ -11,14 +11,14 @@ Set-PSDebug -Trace 1
 $external_docs = @{
     # use either commit, or branch name to use its latest commit
     "uno.wasm.bootstrap" = @{ ref="b0a18b301d446ed0ae38839c425bf354aa19fc4b" }  #latest main commit
-    "uno.themes"         = @{ ref="bd1cf6841da9b51b32c7f7a63d8227e3a96cec56" }  #latest master commit
-    "uno.toolkit.ui"     = @{ ref="bcf49ce80b72a027903217ac6f0cd4b91dd09164" }  #latest main commit
-    "uno.check"          = @{ ref="0a61c8a9d853c9a8629a730a17029ccd68479dd0" }  #latest main commit
+    "uno.themes"         = @{ ref="3e97fceb6394411609df80cccff6366246dfbe86" }  #latest master commit
+    "uno.toolkit.ui"     = @{ ref="74a36345e33781409195d82cadfbb72d5df2fd94" }  #latest main commit
+    "uno.check"          = @{ ref="cd9de3d6ef4998bf66f25e695ba57c1457e3bc9b" }  #latest main commit
     "uno.xamlmerge.task" = @{ ref="081dcfa44b5ce24ac0948675e5ee6b781e2107bc" }  #latest main commit
     "figma-docs"         = @{ ref="842a2792282b88586a337381b2b3786e779973b4" }  #latest main commit
     "uno.resizetizer"    = @{ ref="a459d04b4b6298ee086f7c3ed8bbd0c5d038d6be" }  #latest main commit
     "uno.uitest"         = @{ ref="94d027295b779e28064aebf99aeaee2b393ad558" }  #latest master commit
-    "uno.extensions"     = @{ ref="8bf0e80c80a1c1ba1050eede12ea0aa3317e7b6e" }  #latest main commit
+    "uno.extensions"     = @{ ref="e8deb7fd54dde3a0747b83e03bae771ea674c495" }  #latest main commit
     "workshops"          = @{ ref="3515c29e03dea36cf2206d797d1bf9f8620370e3" }  #latest master commit
     "uno.samples"        = @{ ref="1d9ea60a7aec335e1d034446c631b93f605f06b8" }  #latest master commit
     "uno.chefs"          = @{ ref="06f4f8042595473557f00cdfa622788273d3a131" }  #latest main commit
