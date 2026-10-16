@@ -10,19 +10,19 @@ Set-PSDebug -Trace 1
 # Each entry: repo name -> @{ ref = '<commit|branch>'; dest = '<sub-folder>'? }
 $external_docs = @{
     # use either commit, or branch name to use its latest commit
-    "uno.wasm.bootstrap" = @{ ref="b0a18b301d446ed0ae38839c425bf354aa19fc4b" }  #latest main commit
-    "uno.themes"         = @{ ref="bd1cf6841da9b51b32c7f7a63d8227e3a96cec56" }  #latest master commit
-    "uno.toolkit.ui"     = @{ ref="bcf49ce80b72a027903217ac6f0cd4b91dd09164" }  #latest main commit
-    "uno.check"          = @{ ref="0a61c8a9d853c9a8629a730a17029ccd68479dd0" }  #latest main commit
+    "uno.wasm.bootstrap" = @{ ref="0eea4b36ea221d5d9a94f39788cdea7876d5e942" }  #latest main commit
+    "uno.themes"         = @{ ref="30192ebbb1050c1fa8e80a0849aad7104616f066" }  #latest master commit
+    "uno.toolkit.ui"     = @{ ref="dc7482ed4b14d14506d300deb34d9792d2e552f0" }  #latest main commit
+    "uno.check"          = @{ ref="1761cac7027ea773ba20c13b9e12f692ca1e315c" }  #latest main commit
     "uno.xamlmerge.task" = @{ ref="081dcfa44b5ce24ac0948675e5ee6b781e2107bc" }  #latest main commit
     "figma-docs"         = @{ ref="842a2792282b88586a337381b2b3786e779973b4" }  #latest main commit
-    "uno.resizetizer"    = @{ ref="a459d04b4b6298ee086f7c3ed8bbd0c5d038d6be" }  #latest main commit
+    "uno.resizetizer"    = @{ ref="9bd1f2240dc25145a28c93674183827224e9f8c1" }  #latest main commit
     "uno.uitest"         = @{ ref="94d027295b779e28064aebf99aeaee2b393ad558" }  #latest master commit
-    "uno.extensions"     = @{ ref="8bf0e80c80a1c1ba1050eede12ea0aa3317e7b6e" }  #latest main commit
+    "uno.extensions"     = @{ ref="5c764c72f53f19063555160dddebb5bc8665dee0" }  #latest main commit
     "workshops"          = @{ ref="3515c29e03dea36cf2206d797d1bf9f8620370e3" }  #latest master commit
-    "uno.samples"        = @{ ref="1d9ea60a7aec335e1d034446c631b93f605f06b8" }  #latest master commit
-    "uno.chefs"          = @{ ref="06f4f8042595473557f00cdfa622788273d3a131" }  #latest main commit
-    "hd-docs"            = @{ ref="ec0553b7a2d000cc0138c020215f313a04ec8807"; dest="studio/Hot Design" } #latest main commit
+    "uno.samples"        = @{ ref="754a67fff98cdd56dda13cc9a7d538a36a511352" }  #latest master commit
+    "uno.chefs"          = @{ ref="1afae1b3f3d2e3bd3f6cb7084aed861f74ea525b" }  #latest main commit
+    "hd-docs"            = @{ ref="392b8c2ea8e99808cd166a3e34f4688b838b3abe"; dest="studio/Hot Design" } #latest main commit
 }
 
 $uno_git_url = "https://github.com/unoplatform/"
